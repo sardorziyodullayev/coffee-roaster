@@ -1,0 +1,71 @@
+.hero {
+  padding: 117px 0 116px 85px;
+  background-image: url(../../images/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+}
+.hero__content {
+  max-width: 493px;
+}
+.hero__title {
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.hero__text-wrapper{
+    width: 444px;
+
+}
+.hero__text {
+  margin: 32px 0 56px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+  margin-bottom: 56px;
+}
+@media only screen and (max-width:1100px){
+    .hero{
+        background-image: url(../../images/Bitmap-tablet.png);
+    }
+}
+@media only screen and (max-width:860px){
+    .hero{
+        padding: 104px 0 104px 58px;
+    }
+    .hero__content{
+        width: 398px;
+    }
+    .hero__title{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .hero__text{
+        margin: 24px 0 40px 0;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width:680px){
+    .hero{
+        padding: 100px 24px 99px;
+        background-image: url(../../images/Bitmap-mobile.png);
+    }
+    .hero__content{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hero__text-wrapper{
+        width: 100%;
+    }
+    .hero__title{
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
