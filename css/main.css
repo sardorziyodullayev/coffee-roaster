@@ -278,6 +278,371 @@ img {
     width: 100%;
   }
 }
+.choose-us {
+  margin-top: 200px;
+}
+
+.choose-us__inner {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 317px;
+  background-color: #333D4B;
+  border-radius: 15px;
+}
+
+.choose-us__content {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.choose-us__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.choose-us__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.choose-us__list {
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product-item {
+  padding: 72px 48px 48px;
+  max-width: 350px;
+  background-color: #0E8784;
+  text-align: center;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.product-item:last-child {
+  padding-top: 83px;
+}
+
+.product-item:hover {
+  background: #fdd6ba;
+  transform: scale(0.96);
+}
+
+.product-item:active {
+  background: #f4f1eb;
+}
+
+.product-item__title {
+  font-family: "Fraunces", sans-serif;
+  margin-top: 56px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FEFCF7;
+}
+
+.product-item__text {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+@media only screen and (max-width: 1126px) {
+  .choose-us {
+    margin-top: 129px;
+  }
+
+  .choose-us__inner {
+    padding-top: 80px;
+    padding-bottom: 368px;
+  }
+
+  .choose-us__list {
+    flex-direction: column;
+    align-items: center;
+    bottom: -350px;
+  }
+
+  .product-item {
+    padding: 41px 48px 41px 70px;
+    max-width: 692px;
+    display: flex;
+    align-items: center;
+  }
+
+  .product-item:last-child {
+    padding: 41px 48px 41px 70px;
+  }
+
+  .product-item + .product-item {
+    margin-top: 24px;
+  }
+
+  .product-item__content {
+    margin-left: 55px;
+    max-width: 344px;
+    text-align: left;
+  }
+
+  .product-item__title {
+    margin: 0;
+  }
+
+  .product-item__text {
+    margin-top: 16px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .choose-us {
+    margin-top: 120px;
+  }
+
+  .choose-us__content {
+    padding: 10px;
+  }
+
+  .choose-us__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .choose-us__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .product-item__img1 {
+    width: 55px;
+    height: 56px;
+  }
+
+  .product-item__img2 {
+    width: 56px;
+    height: 56px;
+  }
+
+  .product-item__img3 {
+    width: 55px;
+    height: 39px;
+  }
+
+  .product-item__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .choose-us__inner {
+    padding-top: 64px;
+    padding-bottom: 621px;
+  }
+
+  .choose-us__title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .choose-us__list {
+    flex-direction: column;
+    align-items: center;
+    bottom: -55%;
+  }
+
+  .product-item {
+    padding: 72px 33px 51px;
+    max-width: 692px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .product-item__title {
+    margin-top: 56px;
+  }
+
+  .product-item:last-child {
+    padding: 72px 33px 51px;
+  }
+
+  .product-item__content {
+    margin: 0;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .choose-us__list {
+    bottom: -63%;
+  }
+
+  .product-item {
+    padding: 72px 33px 51px;
+    max-width: 279px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .product-item {
+    padding: 62px 25px 41px;
+    max-width: 249px;
+  }
+}
+.works {
+  padding-top: 400px;
+  background: #f2f2f2;
+}
+
+.works__title {
+  margin-bottom: 95px;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.works__line {
+  position: relative;
+  margin-bottom: 82px;
+  max-width: 760px;
+  height: 1px;
+  border: 2px solid #fdd6ba;
+  background-color: rgb(253, 214, 186);
+}
+
+.circle-1 {
+  position: absolute;
+  top: -15px;
+  left: -18px;
+  display: block;
+  width: 31px;
+  height: 31px;
+  background: #fefcf7;
+  border-radius: 50%;
+  border: 2px solid #0e8784;
+}
+
+.circle-2 {
+  position: absolute;
+  top: -15px;
+  right: -18px;
+  display: block;
+  width: 31px;
+  height: 31px;
+  background: #fefcf7;
+  border-radius: 50%;
+  border: 2px solid #0e8784;
+}
+
+.circle-3 {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  width: 31px;
+  height: 31px;
+  background: #fefcf7;
+  border-radius: 50%;
+  border: 2px solid #0e8784;
+}
+
+.works__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list__item {
+  max-width: 285px;
+  flex-wrap: wrap;
+}
+
+.list__span {
+  display: block;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+
+.list__item h3 {
+  padding: 38px 0 42px 0;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.list__item p {
+  margin-bottom: 64px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+@media only screen and (max-width: 910px) {
+  .works {
+    padding-top: 500px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .works__head {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .list {
+    width: 327px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .works__line {
+    margin-bottom: 62px;
+    max-width: 500px;
+  }
+
+  .list__item {
+    max-width: 223px;
+  }
+
+  .works__inner {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .works__line {
+    display: none;
+  }
+}
 .create {
   display: inline-block;
   padding: 15px 31px;
@@ -290,4 +655,12 @@ img {
   line-height: 25px;
   text-align: center;
   color: #fefcf7;
+}
+
+.create:hover {
+  background-color: #66d2cf;
+}
+
+.create:active {
+  background-color: #e2dedb;
 }/*# sourceMappingURL=main.css.map */
