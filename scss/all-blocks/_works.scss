@@ -1,5 +1,6 @@
 .works {
   padding-top: 400px;
+  padding-bottom: 200px;
   background: #f2f2f2;
 }
 .works__title {
@@ -99,6 +100,7 @@
   line-height: 26px;
   color: #333d4b;
 }
+
 @media only screen and (max-width: 910px) {
   .works {
     padding-top: 500px;
