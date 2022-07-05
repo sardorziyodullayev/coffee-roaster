@@ -1,0 +1,64 @@
+.about__container {
+  padding: 137px 0 137px 85px;
+  background-image: url(../../images/about-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+}
+.about__inner {
+  max-width: 460px;
+}
+.about__title {
+  margin-bottom: 24px;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.about__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+@media only screen and (max-width: 1100px) {
+  .about__container {
+    padding: 118px 0 118px 58px;
+    background-image: url(../../images/about-tablet.png);
+  }
+}
+@media only screen and (max-width: 860px) {
+  .about__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .about__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .about__container {
+    padding: 101px 24 136px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(../../images/about-mobile.png);
+  }
+}
+@media only screen and (max-width: 610px) {
+  .about__inner {
+    padding: 0 30px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 540px) {
+    .about__inner {
+        padding: 0 50px;
+        text-align: center;
+      }
+}
