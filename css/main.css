@@ -756,7 +756,7 @@ img {
   background-color: #e2dedb;
 }
 
-.about__container {
+.about__content {
   padding: 137px 0 137px 85px;
   background-image: url(../../images/about-img.png);
   background-repeat: no-repeat;
@@ -788,7 +788,7 @@ img {
 }
 
 @media only screen and (max-width: 1100px) {
-  .about__container {
+  .about__content {
     padding: 118px 0 118px 58px;
     background-image: url(../../images/about-tablet.png);
   }
@@ -805,7 +805,7 @@ img {
   }
 }
 @media only screen and (max-width: 680px) {
-  .about__container {
+  .about__content {
     padding: 101px 24 136px;
     width: 100%;
     text-align: center;
@@ -989,5 +989,89 @@ img {
 
   .quality__inner {
     width: 280px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .quality__img {
+    width: 330px;
+    height: 190px;
+  }
+}
+.quarters__content {
+  padding: 144px 0 144px 0;
+}
+
+.quarters__title {
+  margin-bottom: 72px;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.quarters__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.quarters__item {
+  width: 222px;
+}
+
+.item__title {
+  margin-top: 48px;
+  margin-bottom: 21px;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.item__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+@media only screen and (max-width: 705px) {
+  .quarters__content {
+    padding: 120px 0 120px 0;
+  }
+
+  .quarters__heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quarters__list {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .quarters__item {
+    margin-bottom: 80px;
+  }
+
+  .item__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .quarters__content {
+    padding: 100px 0 100px 0;
+  }
+
+  .quarters__item {
+    margin-bottom: 60px;
   }
 }/*# sourceMappingURL=main.css.map */
