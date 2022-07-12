@@ -1,3 +1,12 @@
+
+:root{
+  --bg-black:#fff;
+  --clr-white:#2F343A;
+}
+.dark{
+  --bg-black:#2F343A;
+  --clr-white:#fff;
+}
 .site-header {
   padding: 43px 0 45px 0;
 }
@@ -25,6 +34,17 @@
   border: none;
   background-color: transparent;
   display: none;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #888;
+  border-radius: 8px;
+  cursor: pointer;
 }
 @media only screen and (max-width: 815px) {
   .site-header {
